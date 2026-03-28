@@ -1,0 +1,8 @@
+[
+  { "name": "women razor", "price": 150 },
+  { "name": "razor", "price": 100 },
+  { "name": "women shampoo", "price": 250 },
+  { "name": "shampoo", "price": 180 },
+  { "name": "men deodorant", "price": 200 },
+  { "name": "deodorant", "price": 170 }
+]
