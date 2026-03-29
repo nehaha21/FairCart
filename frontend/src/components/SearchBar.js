@@ -24,7 +24,7 @@ export default function SearchBar({ onSearch, loading }) {
 
       <div className="hero-content">
         <h1 className="hero-title">
-          Find the <span>hidden price bias</span> 💅
+          Find the <span>hidden price bias</span>
         </h1>
         <p className="hero-sub">
           Discover if you're paying more just because it's "for women"
@@ -36,7 +36,7 @@ export default function SearchBar({ onSearch, loading }) {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Try 'women's razor' or 'shampoo'..."
+            placeholder="Try 'Dove shampoo' or 'Minimalist sunscreen'..."
             disabled={loading}
           />
           <button type="submit" disabled={loading || !query.trim()}>

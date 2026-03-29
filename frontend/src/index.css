@@ -1767,3 +1767,67 @@ body {
   transition: color 0.15s;
 }
 .product-link:hover { color: var(--pink-600); text-decoration: underline; }
+
+/* ── paste these at the bottom of your index.css ── */
+
+/* Feature Match Bar */
+.match-bar-wrap { margin-top: 0.5rem; }
+.match-bar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem; }
+.match-label { font-size: 0.72rem; color: var(--text-soft, #9a6a7e); }
+.match-score { font-size: 0.78rem; font-weight: 700; }
+.match-bar-bg { height: 5px; background: rgba(0,0,0,0.08); border-radius: 100px; overflow: hidden; }
+.match-bar-fill { height: 100%; border-radius: 100px; transition: width 0.5s ease; }
+
+/* Shared Feature Tags */
+.shared-features { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.4rem; align-items: center; }
+.shared-label { font-size: 0.68rem; color: var(--text-soft, #9a6a7e); }
+.feature-tag {
+  background: #f0fdf4;
+  color: #16a34a;
+  border: 1px solid #bbf7d0;
+  border-radius: 100px;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Alt subtitle */
+.alt-subtitle { font-size: 0.78rem; color: var(--text-soft, #9a6a7e); margin-bottom: 0.75rem; margin-top: -0.25rem; }
+
+/* Bias method note */
+.bias-method-note { font-size: 0.72rem; color: var(--text-soft, #9a6a7e); margin-top: 0.5rem; }
+
+/* Modal buy link */
+.modal-buy-link {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.78rem;
+  color: var(--pink-500, #f72585);
+  text-decoration: none;
+  font-weight: 600;
+}
+.modal-buy-link:hover { text-decoration: underline; }
+
+/* Modal fair */
+.modal-fair {
+  background: #f0fdf4;
+  border: 1.5px solid #bbf7d0;
+  border-radius: 12px;
+  padding: 1rem;
+  font-size: 0.88rem;
+  color: #15803d;
+  margin-bottom: 1rem;
+}
+
+/* Alt info layout */
+.alt-info { flex: 1; min-width: 0; }
+.alt-name-link {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+  margin-bottom: 0.15rem;
+}
+.alt-name-link:hover { color: var(--pink-500, #f72585); }
