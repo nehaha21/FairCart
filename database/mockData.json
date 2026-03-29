@@ -1,8 +1,134 @@
 [
-  { "name": "women razor", "price": 150 },
-  { "name": "razor", "price": 100 },
-  { "name": "women shampoo", "price": 250 },
-  { "name": "shampoo", "price": 180 },
-  { "name": "men deodorant", "price": 200 },
-  { "name": "deodorant", "price": 170 }
+  {
+    "id": "1",
+    "name": "Venus Women's Razor",
+    "brand": "Gillette",
+    "category": "razors",
+    "gender": "female",
+    "price": 349,
+    "image": "https://via.placeholder.com/200x200?text=Venus+Razor",
+    "keywords": ["women", "venus", "pink", "feminine"],
+    "description": "5-blade razor for women with moisturizing strip"
+  },
+  {
+    "id": "2",
+    "name": "Mach3 Men's Razor",
+    "brand": "Gillette",
+    "category": "razors",
+    "gender": "male",
+    "price": 249,
+    "image": "https://via.placeholder.com/200x200?text=Mach3+Razor",
+    "keywords": ["men", "mach3", "blue"],
+    "description": "3-blade razor for men with comfort strip"
+  },
+  {
+    "id": "3",
+    "name": "Women's Dove Body Wash",
+    "brand": "Dove",
+    "category": "body_wash",
+    "gender": "female",
+    "price": 299,
+    "image": "https://via.placeholder.com/200x200?text=Dove+Women",
+    "keywords": ["women", "feminine", "floral", "pink"],
+    "description": "Moisturizing body wash for women with floral scent"
+  },
+  {
+    "id": "4",
+    "name": "Men's Dove Body Wash",
+    "brand": "Dove",
+    "category": "body_wash",
+    "gender": "male",
+    "price": 229,
+    "image": "https://via.placeholder.com/200x200?text=Dove+Men",
+    "keywords": ["men", "masculine", "sport"],
+    "description": "Refreshing body wash for men with sport scent"
+  },
+  {
+    "id": "5",
+    "name": "Women's Deodorant Nivea Pearl",
+    "brand": "Nivea",
+    "category": "deodorant",
+    "gender": "female",
+    "price": 199,
+    "image": "https://via.placeholder.com/200x200?text=Nivea+Women",
+    "keywords": ["women", "pearl", "feminine", "pink"],
+    "description": "48h protection deodorant for women"
+  },
+  {
+    "id": "6",
+    "name": "Men's Deodorant Nivea Silver",
+    "brand": "Nivea",
+    "category": "deodorant",
+    "gender": "male",
+    "price": 149,
+    "image": "https://via.placeholder.com/200x200?text=Nivea+Men",
+    "keywords": ["men", "silver", "sport"],
+    "description": "48h protection deodorant for men"
+  },
+  {
+    "id": "7",
+    "name": "Women's Sunscreen SPF50 Neutrogena",
+    "brand": "Neutrogena",
+    "category": "sunscreen",
+    "gender": "female",
+    "price": 599,
+    "image": "https://via.placeholder.com/200x200?text=Sunscreen+W",
+    "keywords": ["women", "feminine", "glow", "pink"],
+    "description": "SPF50 sunscreen with vitamin C for women"
+  },
+  {
+    "id": "8",
+    "name": "Men's Sunscreen SPF50 Neutrogena",
+    "brand": "Neutrogena",
+    "category": "sunscreen",
+    "gender": "male",
+    "price": 499,
+    "image": "https://via.placeholder.com/200x200?text=Sunscreen+M",
+    "keywords": ["men", "sport", "matte"],
+    "description": "SPF50 sport sunscreen for men"
+  },
+  {
+    "id": "9",
+    "name": "Women's Shampoo Pantene Smooth",
+    "brand": "Pantene",
+    "category": "shampoo",
+    "gender": "female",
+    "price": 349,
+    "image": "https://via.placeholder.com/200x200?text=Pantene+W",
+    "keywords": ["women", "smooth", "feminine", "pink"],
+    "description": "Smoothing shampoo for women with keratin"
+  },
+  {
+    "id": "10",
+    "name": "Men's Shampoo Pantene Pro-V",
+    "brand": "Pantene",
+    "category": "shampoo",
+    "gender": "male",
+    "price": 279,
+    "image": "https://via.placeholder.com/200x200?text=Pantene+M",
+    "keywords": ["men", "sport", "strength"],
+    "description": "Strengthening shampoo for men"
+  },
+  {
+    "id": "11",
+    "name": "Women's Vitamin C Supplement",
+    "brand": "HealthKart",
+    "category": "vitamins",
+    "gender": "female",
+    "price": 799,
+    "image": "https://via.placeholder.com/200x200?text=Vitamin+W",
+    "keywords": ["women", "feminine", "glow", "beauty"],
+    "description": "Vitamin C + Collagen for women's skin health"
+  },
+  {
+    "id": "12",
+    "name": "Vitamin C Supplement",
+    "brand": "HealthKart",
+    "category": "vitamins",
+    "gender": "neutral",
+    "price": 549,
+    "image": "https://via.placeholder.com/200x200?text=Vitamin+N",
+    "keywords": ["immunity", "health", "neutral"],
+    "description": "Vitamin C for immunity and health"
+  }
 ]
