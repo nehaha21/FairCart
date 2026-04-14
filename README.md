@@ -1,10 +1,10 @@
-# 🛒 FairCart — Exposing the Pink Tax in Real Time
+# FairCart - Exposing the Pink Tax in Real Time
 
 FairCart is an AI-powered product comparison platform that **detects, scores, and exposes gendered price bias** in real time.
 
 ---
 
-## 🚀 Quick Start (2 terminals)
+## Quick Start (2 terminals)
 
 ### Terminal 1 — Backend (Flask API)
 
@@ -28,7 +28,7 @@ App runs at → **http://localhost:3000**
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 faircart/
@@ -59,7 +59,7 @@ faircart/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -72,7 +72,7 @@ faircart/
 
 ---
 
-## 🧮 Bias Score Formula
+## Bias Score Formula
 
 ```
 bias% = ((women_price - men_price) / men_price) × 100
@@ -84,7 +84,7 @@ High:     > 10%  ! red
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Real-time bias detection** across 6 product categories
 - **Transparent bias score** (Fair / Moderate / High) with % breakdown
@@ -97,17 +97,15 @@ High:     > 10%  ! red
 
 ##Contributers 
 
-| Name | Stream | Role |
-|------|--------|------|
-| Neha Rastogi | AIML | AI & Backend |
-| Nidhi S | AIML | Data & Analytics |
-| Nikita Mankani | CS | Frontend & UX |
-| Madhuri Ravikumar | AIML | Full Stack & ML |
+Neha Rastogi
+Nidhi S
+Nikita Mankani
+Madhuri Ravikumar
 
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Frontend**: React.js, Recharts
 - **Backend**: Flask (Python)
