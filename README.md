@@ -97,10 +97,10 @@ High:     > 10%  ! red
 
 ##Contributers 
 
-Neha Rastogi |
-Nidhi S |
-Nikita Mankani |
-Madhuri Ravikumar |
+- Neha Rastogi
+- Nidhi S
+- Nikita Mankani
+- Madhuri Ravikumar
 
 
 ---
